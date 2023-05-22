@@ -1,2 +1,4 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿using BenchmarkDotNet.Running;
+using ClassicalProblems.Problems;
+
+BenchmarkRunner.Run<SumOfEvenFibonacci>();
